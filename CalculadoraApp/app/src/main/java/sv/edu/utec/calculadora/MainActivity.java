@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
-
         }
-
+       edtOp1.setText("");
+        edtOp2.setText("");
     }
 
 }
