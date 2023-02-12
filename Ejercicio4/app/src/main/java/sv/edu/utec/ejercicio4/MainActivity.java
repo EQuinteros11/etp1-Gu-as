@@ -16,7 +16,7 @@ import java.text.DecimalFormat;
 public class MainActivity extends AppCompatActivity {
 
     EditText edtPrecioProducto;
-    TextView txvResultado, txvPrecioInicial, txvIVA, txvPrecioFinal;
+    TextView txvResultado, txvPrecioInicial, txvIVA, txvPrecioFinal, txvAlerta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,18 +36,18 @@ public class MainActivity extends AppCompatActivity {
         double precioProducto = Double.parseDouble( edtPrecioProducto.getText().toString() );
         double IVA = 13.4, totalIva = 0.00, precioFinal = 0.00;
 
-        // Calculando el IVA
-        totalIva = ( precioProducto * IVA ) / 100;
-        obtieneDosDecimales( totalIva );
+            // Calculando el IVA
+            totalIva = ( precioProducto * IVA ) / 100;
+            obtieneDosDecimales( totalIva );
 
-        // Calculando el precio final del producto
-        precioFinal = precioProducto + totalIva;
+            // Calculando el precio final del producto
+            precioFinal = precioProducto + totalIva;
 
-        // Mostrando los resultados dentro de los textView de la vista
-        txvResultado.setText("Resultados");
-        txvPrecioInicial.setText( "Precio inicial: " + String.valueOf( precioProducto ) );
-        txvIVA.setText( "IVA generado: " + String.valueOf( obtieneDosDecimales( totalIva ) ) );
-        txvPrecioFinal.setText( "Precio final del producto: " + String.valueOf( obtieneDosDecimales( precioFinal ) ) );
+            // Mostrando los resultados dentro de los textView de la vista
+            txvResultado.setText("Resultados");
+            txvPrecioInicial.setText( "Precio inicial: " + String.valueOf( precioProducto ) );
+            txvIVA.setText( "IVA generado: " + String.valueOf( obtieneDosDecimales( totalIva ) ) );
+            txvPrecioFinal.setText( "Precio final del producto: " + String.valueOf( obtieneDosDecimales( precioFinal ) ) );
     }
 
     // Metodo para obtener 2 redondear a 2 decimales un numero decimal
