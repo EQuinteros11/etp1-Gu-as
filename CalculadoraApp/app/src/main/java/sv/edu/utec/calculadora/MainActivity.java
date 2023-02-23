@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 if (selec.equals("*")) {
                     multi = op1 * op2;
-                    respu.setText("La multiplicación es: " + multi);
+                    respu.setText("La multiplicación es : " + multi);
                 } else {
                     if (selec.equals("/")) {
                         divi = op1 / op2;
