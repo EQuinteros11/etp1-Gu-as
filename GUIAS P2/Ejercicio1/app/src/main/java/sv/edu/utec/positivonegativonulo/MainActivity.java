@@ -29,9 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 mostrar();
             }
         });
-
 }
-
 public void mostrar(){
         String SA = et.getText().toString();
     try {
@@ -48,6 +46,5 @@ public void mostrar(){
     catch (Exception e){
         tv.setText("Vuelva a intentar");
     }
-
     }
 }
