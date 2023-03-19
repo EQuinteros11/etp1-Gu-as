@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 public void mostrar(){
-    String SA = et.getText().toString();
+        String SA = et.getText().toString();
     try {
         int B = Integer.valueOf(SA);
 
