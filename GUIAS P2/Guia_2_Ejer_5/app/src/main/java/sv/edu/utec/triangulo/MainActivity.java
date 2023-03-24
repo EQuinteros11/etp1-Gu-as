@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         /*double ladoA = Integer.parseInt(a1);
         double ladoB = Integer.parseInt(a2);
         double ladoC = Integer.parseInt(a3);*/
-
         if (a1.equals("") || a2.equals("") || a3.equals("")){
             Toast.makeText(getApplicationContext(),"Sin datos, Ingrese datos",Toast.LENGTH_LONG).show();
         }
@@ -47,15 +46,15 @@ public class MainActivity extends AppCompatActivity {
             float ladoC = Float.parseFloat(a3);
 
             if (ladoA == ladoB && ladoA == ladoC) {
-                Triangulo.setImageResource(R.drawable.Equilatero);
+                Triangulo.setImageResource(R.drawable.equilatero);
                 Toast.makeText(getApplicationContext(), "TRIANGULO EQUILATERO", Toast.LENGTH_LONG).show();
             }
             else if (ladoA == ladoB && ladoA != ladoC || ladoA != ladoB && ladoA == ladoC || ladoB == ladoA && ladoB != ladoC || ladoB != ladoA && ladoB == ladoC || ladoC == ladoA && ladoC != ladoB || ladoC != ladoA && ladoC == ladoB){
-                Triangulo.setImageResource(R.drawable.Isosceles);
+                Triangulo.setImageResource(R.drawable.isosceles);
                 Toast.makeText(getApplicationContext(), "TRIANGULO iSOSCELES", Toast.LENGTH_LONG).show();
             }
             else {
-                Triangulo.setImageResource(R.drawable.Escaleno);
+                Triangulo.setImageResource(R.drawable.escaleno);
                 Toast.makeText(getApplicationContext(), "TRIANGULO ESCALENO", Toast.LENGTH_LONG).show();
             }
 

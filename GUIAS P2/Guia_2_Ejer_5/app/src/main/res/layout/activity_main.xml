@@ -48,6 +48,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text="12"
                 android:textAlignment="center" />
 
             <TextView
@@ -65,6 +66,7 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text="12"
                 android:textAlignment="center" />
 
             <TextView
@@ -82,21 +84,22 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text="12"
                 android:textAlignment="center" />
 
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imgV"
+            android:src ="@drawable/equilatero"
             android:layout_width="match_parent"
             android:layout_height="222dp"
-            tools:srcCompat="@tools:sample/avatars" />
+             />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:text="Es un triangulo "
             android:textAlignment="center"
             android:textSize="24sp" />
 
