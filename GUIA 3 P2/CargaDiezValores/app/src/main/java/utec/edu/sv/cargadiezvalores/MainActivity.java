@@ -37,7 +37,6 @@ int sumapares=0;
         edtNum9 = findViewById(R.id.edtNum9);
         edtNum10 = findViewById(R.id.edtNum10);
         btnMostrar = findViewById(R.id.btnEjecutar);
-
     }
     public void Ejecutar(View v){
         String num1 = edtNum1.getText().toString();

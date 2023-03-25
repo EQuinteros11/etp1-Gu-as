@@ -50,9 +50,5 @@ ArrayAdapter adaptations;
                 Toast.makeText(parent.getContext(),"Selecciono\n"+parent.getItemAtPosition(position).toString(),Toast.LENGTH_SHORT).show();
             }
         });
-
-
-
-
     }
 }

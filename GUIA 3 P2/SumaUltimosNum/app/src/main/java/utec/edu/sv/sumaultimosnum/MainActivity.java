@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
         edtNum8 = findViewById(R.id.edtNum8);
         edtNum9 = findViewById(R.id.edtNum9);
         edtNum10 = findViewById(R.id.edtNum10);
-
-
     }
     public void imprimir(View v){
         String num1 = edtNum1.getText().toString();
