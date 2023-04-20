@@ -31,7 +31,12 @@ public class MainActivity extends AppCompatActivity {
             "17 - Frambuesa: Fruta pequeña de sabor agridulce",
             "18 - Cereza: una fruta pequeña y redonda con piel suave y pulpa dulce y jugosa",
             "19 - Higo: una fruta pequeña y redonda con piel suave y pulpa dulce y jugosa.",
-            "20 - Maracuya: fruta redonda y pequeña de piel resistente que se arruga cuando está madura"};
+            "20 - Maracuya: fruta redonda y pequeña de piel resistente que se arruga cuando está madura",
+            "21 - Sandia: fruta redonda y grande de cascara resistente",
+            "22 - Toronja: fruta redonda Agria",
+            "23 - Guayava: fruta redonda dulces",
+            "24 - Arayan: fruta agridulce",
+            "25 - Carambola: fruta agridulce recomendada en refrescos"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
